@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Coda - Clienetes</title>
+        <link rel="stylesheet" type="text/css" href="css/folhadeestilo.css">
+    </head>
+    <body id="color-page">
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="imagem/linode-brands.svg" alt="logo site">
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <!- href="index.html"-->
+                <li><a href="index.html">home</a></li>
+
+                <!- href="clienes.html"->
+                <li><a href="clientes.html">clientes</a></li>
+
+                <!- href="sobre.html"-->
+                <li><a href="sobre.html">sobre</a></li>
+
+                <!- href="contato.html"-->
+                <li><a href="#topo">contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="img-titulo">
+        <img src="imagem/users-solid.svg" alt="imagem de clientes">
+    </div>
+
+    <section id="txt-contato">
+        <form name="meu_form" id="meu_form">
+            <p class="nome">
+                <label for="nome">Nome:</label><br>
+                <input
+                        type="text"
+                        id="nomeid"
+                        placeholder="Seu nome e sobrenome"
+                        required="required"
+                        name="nome"
+                >
+            </p>
+
+            <p class="fone">
+                <label for="fone">Fone:</label><br>
+                <input
+                        type="text"
+                        id="foneid"
+                        placeholder="(xx)xxxxx-xxxx"
+                        name="fone"
+                >
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input
+                        type="email"
+                        id="emailid"
+                        placeholder="email@dominio.com"
+                        name="email"
+                        required="required"
+                >
+            </p>
+
+            <p>
+                <textarea placeholder="mensagem" required="required"></textarea>
+            </p>
+            <button type="submit" form="meu_form"> Enviar </button>
+        </form>
+
+        <div id="conta-data">
+            <h4> Code - Desenvolvimento de Site</h4>
+            <h5><img src="imagem/map-marked.svg" alt="endereco"><br>Avenida Principal n° 2020</h5>
+            <h5><img src="imagem/phone.svg" alt="telefone"><br> + 55 11 99999-9999</h5>
+            <h5><img src="imagem/envelope-open.svg" alt="email"><br>contato@code.com.br</h5>
+            <h5><img src="imagem/facebook.svg" alt="facebook"><br>facebook.com\codadev</h5>
+            <h5><img src="imagem/instagram.svg" alt="instagram"><br>@codadev</h5>
+        </div>
+
+    </section>
+
+    </body>
+</html>
