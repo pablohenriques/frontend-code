@@ -1,4 +1,4 @@
-# Coda - Plataforma de Serviços
+# Code - Plataforma de Serviços
 ---
 
 Este projeto é o resultado da realização do
